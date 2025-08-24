@@ -1,5 +1,5 @@
-export const API_BASE = 'http://localhost:5000';
-export const WS_BASE = 'ws://localhost:5000/ws';
+export const API_BASE = 'https://insyd-backend-b1hs.onrender.com';
+export const WS_BASE = 'wss://insyd-backend-b1hs.onrender.com/ws';
 
 export async function api(path, opts = {}) {
   const res = await fetch(`${API_BASE}${path}`, {
